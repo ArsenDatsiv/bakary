@@ -6,8 +6,8 @@
 * {
   color: var(--mainColor);
 }
-button {
-  border: none;
+body{
+  background: var(--mainColor);
 }
 .header-main-container {
   background: url(/srs/img/header-bg.png) no-repeat center/cover;
@@ -113,4 +113,35 @@ margin-bottom: 125px;
 .card-button {
   padding: 10px 22px 6px 22px;
   background: #C85312;
+}
+.menu {
+}
+.container {
+}
+.order-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.order {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  column-gap: 198px;
+  row-gap: 56px;
+}
+.orders {
+  border: 1px solid var(--mainColor);
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-text {
+}
+.order-button {
+  padding: 4px 44px 7px 44px;
+  font-size: 26px;
+  background: #B47B48;
 }
