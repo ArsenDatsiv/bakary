@@ -1,5 +1,13 @@
+@import '/srs/css/reset.css';
 :root {
   --mainColor: #fff;
+  --mainDark: #272727;
+}
+* {
+  color: var(--mainColor);
+}
+button {
+  border: none;
 }
 .header-main-container {
   background: url(/srs/img/header-bg.png) no-repeat center/cover;
@@ -52,20 +60,57 @@ padding-top: 16px;
 padding-right: 34px;
 padding-bottom: 7px;
 border-radius: 15px;
+margin-top: 33px;
+margin-bottom: 125px;
 
 
 }
 .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 .cards {
-  
+  background: var(--mainDark);
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  transition: all .6s;
+  padding: 14px;
+  height: 200px;
+  position: relative;
+}
+.cards::after {
+  content: '!';
+  position: absolute;
+  border: 2px solid var(--mainColor);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  left: 40%;
+  top: 80%;
+}
+.cards:hover{
+  background-color: #EBAD51;
 }
 .cards-text {
 
 }
 .card-text {
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--mainColor);
 }
 .card-name {
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 35px;
+
 }
 .card-button {
+  padding: 10px 22px 6px 22px;
+  background: #C85312;
 }
