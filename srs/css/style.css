@@ -43,12 +43,25 @@
   width: 500px;
 }
 .service-button {
+font-weight: 300;
+font-size: 24px;
+color: var(--mainColor);
+background-color: #B47B48;
+padding-left: 34px;
+padding-top: 16px;
+padding-right: 34px;
+padding-bottom: 7px;
+border-radius: 15px;
+
+
 }
 .card {
 }
 .cards {
+  
 }
 .cards-text {
+
 }
 .card-text {
 }
