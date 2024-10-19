@@ -204,22 +204,80 @@ align-self: flex-end;
 font-size: 24px;
 }
 .foto {
-  background-color: #272727;
-  display: flex;
-  align-items: center;
-  height: 580px;
-  column-gap: 50px;
-  margin-top: 100px;
+  background: url(/srs/img/photo_2024-10-19_16-06-13.jpg) no-repeat center/cover;
+  height: 480px;
+  height: 100%;
+  width: 100%;
 }
 .foto-title {
   font-weight: 400;
 font-size: 48px;
 color: var(--mainColor);
-padding-top: 55px;
-padding-bottom: 406px;
+height: 100%;
+width: 100%;
+}
+.foto-container{
+  display: flex;
+  justify-content: center;
+  column-gap: 230px;
+  margin-top: 132px;
+  margin-bottom: px;
 }
 .foto-card {
   
 }
 .foto-text {
+  text-align: center;
+  font-weight: 700;
+font-size: 24px
+}
+.about {
+  background: var(--mainDark);
+}
+.about-title {
+  font-weight: 400;
+font-size: 48px;
+margin-bottom: 57px;
+margin-top: 66px;
+}
+.about-container {
+  display: flex;
+}
+.about-foro {
+  width: 400px!important;
+  height: 300px!important;
+}
+.abouts {
+  display: flex;
+  margin-left: 131px;
+}
+.about-how {
+  margin-right:80px;
+}
+.about-How-title {
+  font-weight: 400;
+font-size: 40px;
+margin-bottom: 41px;
+}
+.about-how-text {
+  opacity: 0.5;
+}
+.about-when {
+}
+.about-when-title {
+  font-weight: 400;
+font-size: 40px;
+margin-bottom: 41px;
+}
+.about-when-text {
+  font-weight: 100;
+font-size: 20px;
+text-align: center;
+opacity: 0.5;
+}
+.one {
+  margin-bottom: 65px;
+}
+.two {
+  margin-bottom: 20px;
 }
