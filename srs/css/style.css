@@ -203,3 +203,23 @@ align-self: flex-end;
   font-weight: 500;
 font-size: 24px;
 }
+.foto {
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  height: 580px;
+  column-gap: 50px;
+  margin-top: 100px;
+}
+.foto-title {
+  font-weight: 400;
+font-size: 48px;
+color: var(--mainColor);
+padding-top: 55px;
+padding-bottom: 406px;
+}
+.foto-card {
+  
+}
+.foto-text {
+}
