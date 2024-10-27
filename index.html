@@ -13,10 +13,10 @@
           <nav class="header-nav">
             <ul class="nav-list">
               <li class="nav-iteam">About us</li>
-              <li class="nav-iteam">Delivery</li>
-              <li class="nav-iteam">Menu</li>
-              <li class="nav-iteam">Contacts</li>
-              <li class="nav-iteam">Reviews</li>
+              <a class="nav-iteam" href="#delivery">Delivery</a>
+              <a class="nav-iteam" href="#menu">Menu</a>
+              <a href="#contacts" class="nav-iteam">Contacts</a>
+              <a class="nav-iteam" href="#reviews">Reviews</a>
             </ul>
           </nav>
         </div>
@@ -64,7 +64,7 @@
         </div>
       </header>
     </div>
-    <main class="menu">
+    <main id="menu" class="menu">
       <div class="container">
         <!------------------------1---------------------->
         <h1 class="order-title">Menu</h1>
@@ -89,8 +89,10 @@
             <button class="order-button">Order</button>
           </article>
         </section>
+      </div>
         <!--2-->
-        <section class="Quality">
+        <section id="reviews" class="Quality">
+          <div class="container">
           <h2 class="Quality-title">Quality our bekary</h2>
           <div class="Quality-container">
             <article class="Quality-card1">
@@ -121,9 +123,11 @@
               </ul>
             </article>
           </div>
+        </div>
         </section>
         <!---3-->
-        <section class="foto">
+        <section id="delivery" class="foto">
+          <div class="container">
           <h2 class="foto-title">Why TRADITIONALARTISAX<br />BAKERY ?</h2>
           <div class="foto-container">
             <article class="foto-card">
@@ -139,9 +143,11 @@
               <h3 class="foto-text">Speed Delivery 24 h</h3>
             </article>
           </div>
+        </div>
         </section>
         <!--4-->
         <section class="about">
+          <div class="container">
           <h2 class="about-title">Where</h2>
           <div class="about-container">
             <iframe
@@ -157,7 +163,7 @@
             <article class="abouts">
               <div class="about-how">
                 <h3 class="about-How-title">How</h3>
-                <p class="about-how-text one">+38 055 123 13 12</p>
+                <a href="tel:+38 055 123 13 12" class="about-how-text one">+38 055 123 13 12</a>
                 <p class="about-how-text two">Tik tok.:@TR.Bekary</p>
                 <p class="about-how-text three">Inst:@TR.Bekary</p>
               </div>
@@ -167,10 +173,11 @@
                </div>
             </article>
           </div>
+        </div>
         </section>
-      </div>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
+      <div class="container footer-flex">
        <div class="footer-container">
         <h2 class="footer-title">TRADITIONAL <br>
           ARTISAX BAKERY</h2>
@@ -193,6 +200,8 @@
         <p class="Company-text three-Company">Capital</p>
         <p class="Company-text four-Company">Securaty</p>
        </div>
+      </div>
+      <p class="footer-whater-symbol">@2022 Eatly.All right riserved.</p>
     </footer>
   </body>
 </html>
