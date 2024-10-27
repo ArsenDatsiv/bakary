@@ -221,7 +221,6 @@ width: 100%;
   justify-content: center;
   column-gap: 230px;
   margin-top: 132px;
-  margin-bottom: px;
 }
 .foto-card {
   
@@ -280,4 +279,54 @@ opacity: 0.5;
 }
 .two {
   margin-bottom: 20px;
+}
+.footer {
+}
+.footer-container {
+display: flex;
+justify-content: space-between;
+
+}
+.footer-title {
+font-weight: 200;
+font-size: 40px;
+}
+.footer-text {
+}
+.footer-container-about {
+  
+}
+.footer-about-text {
+}
+.one-about {
+}
+.two-about {
+}
+.three-about {
+}
+.four-about {
+}
+.footer-container-Movement {
+ 
+}
+.Movement-text {
+}
+.one-Movement {
+}
+.two-Movement {
+}
+.three-Movement {
+}
+.footer-container-Company {
+
+}
+.Company-text {
+}
+.one-Company {
+}
+.two-Company {
+}
+.three-Company {
+}
+.four-Company {
 }
