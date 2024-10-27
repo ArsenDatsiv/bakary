@@ -4,6 +4,9 @@
   --mainDark: #272727;
   --maingrey: rgba(242, 242, 242, 0.3);
 }
+html{
+  scroll-behavior: smooth;
+}
 * {
   color: var(--mainColor);
 }
@@ -31,6 +34,7 @@ body{
   margin-bottom: 71px;
 }
 .nav-iteam {
+  cursor: pointer;
   font-size: 24px;
   color: var(--mainColor);
   list-style: none;
@@ -158,7 +162,7 @@ margin-bottom: 125px;
 .Quality-title {
   font-weight: 400;
   font-size: 64px;
-  margin-left: 594px;
+text-align: center;
   margin-top: 94px;
 }
 .Quality-container{
@@ -219,8 +223,10 @@ width: 100%;
 .foto-container{
   display: flex;
   justify-content: center;
-  column-gap: 230px;
+  column-gap: 132px;
   margin-top: 132px;
+  padding-left: 87px;
+  padding-right: 87px;
 }
 .foto-card {
   
@@ -260,6 +266,9 @@ margin-bottom: 41px;
 }
 .about-how-text {
   opacity: 0.5;
+  cursor: pointer;
+}
+.about-how-text .one{
 }
 .about-when {
 }
@@ -279,8 +288,11 @@ opacity: 0.5;
 }
 .two {
   margin-bottom: 20px;
+  margin-top: 65px;
 }
 .footer {
+  margin-top: 90px;
+  padding-bottom: 44px;
 }
 .footer-container {
 display: flex;
@@ -290,11 +302,23 @@ justify-content: space-between;
 .footer-title {
 font-weight: 200;
 font-size: 40px;
+margin-bottom: 18px;
+}
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
 }
 .footer-text {
 }
 .footer-container-about {
   
+}
+.footer-container p:first-child{
+  margin-bottom: 40px;
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
 }
 .footer-about-text {
 }
@@ -329,4 +353,11 @@ font-size: 40px;
 .three-Company {
 }
 .four-Company {
+}
+.footer-whater-symbol{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.488);
+  font-size: 16px;
+  margin-top: 86px;
+  font-weight: 200;
 }
